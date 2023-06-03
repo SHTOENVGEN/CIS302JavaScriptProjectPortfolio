@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+}
+
+h2, figcaption {
+    color: white;
+}
+
+table {
+    width: 600px;
+    background-color: lightgreen;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    height: 150px;
+    width: 200px;
+    padding: 10px;
+    /* border: 1px solid black; */
+    border: 3px solid blue;
+    outline: 1px solid black;
+}
+
+td ul {
+    border: 1px solid black;
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+}
+
+td ul li {
+    list-style-type: none;
+}
+
+ul li a {
+    color: black;
+    list-style-type: none;
+}
+
+ul li a:hover {
+    color: orange;
+    transition: 1s color;
+}
+
+figcaption {
+    text-align: center;
+}
